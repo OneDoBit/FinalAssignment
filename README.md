@@ -23,7 +23,7 @@ Install confetti-npm (npm install react-native-confetti-cannon OR yarn add react
 
 
 # Start CLI Instructions:
-cd "<folder name>"
+cd "folder name"
 expo start
 Start GenyMotion" and run simulator
 "Run on Android Emulator"
