@@ -16,6 +16,8 @@ Page uses Ionicons<br>
 # Install:<br>
 Installed expo cli<br> 
 
+npm install<br>
+
 Install Native Base <br>
 1. npm install native-base --save<br>
 2. react-native link<br>
@@ -36,6 +38,7 @@ import { Ionicons } from '@expo/vector-icons';<br>
 # Start CLI Instructions:<br>
 cd "folder name"<br>
 expo start<br>
+npm insatll<br>
 
 # App Usage<br>
 1)Run<br>
