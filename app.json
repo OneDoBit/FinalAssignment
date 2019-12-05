@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bakery2",
-    "slug": "bakery2",
+    "name": "Luxury Estates",
+    "slug": "LuxuryEstates",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo-png-black.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",

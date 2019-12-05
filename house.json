@@ -1,0 +1,31 @@
+{"house":
+    [
+        {
+            "Address" : "122 Sunview Dr.",
+            "City" : "Toronto, ON",
+            "Profile" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Fcraig-mckay-jmURdhtm7Ng-unsplash.jpg?alt=media&token=08311052-4613-4232-ab88-5d71fe1a9b29",
+            "Image" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Fdaniel-dinuzzo-qCjolcMFaLI-unsplash.jpg?alt=media&token=19b9b845-f6fb-47d5-9daf-aae783a77368",
+            "Views": "956",
+            "Impre": "78",
+            "Price": "675,000"
+        },
+        {
+        "Address" : "1 Younge St.",
+        "City" : "Toronto, ON",
+        "Profile" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Fdan-ROJFuWCsfmA-unsplash.jpg?alt=media&token=2393ec88-3bac-41ca-83e2-619bf48ea10c",
+        "Image" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Fpixasquare-4ojhpgKpS68-unsplash.jpg?alt=media&token=0c64d0af-fc37-48b0-991e-ab262814fe26",
+        "Views": "2091",
+        "Impre": "151",
+        "Price": "1,000,000"
+        },
+        {
+        "Address" : "13 Easy Pkwy.",
+        "City" : "Concord, ON",
+        "Profile" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Femile-guillemot-LSP9Tpavbms-unsplash.jpg?alt=media&token=562ce6e5-caf0-4626-8112-d2b5aa9ff664",
+        "Image" : "https://firebasestorage.googleapis.com/v0/b/webd303-ba508.appspot.com/o/images%2Fstephan-bechert-yFV39g6AZ5o-unsplash.jpg?alt=media&token=9909ef68-9e49-4f14-9d76-120b3adfce08",
+        "Views": "106",
+        "Impre": "8",
+        "Price": "400,000"
+        }
+    ]
+}

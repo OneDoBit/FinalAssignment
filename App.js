@@ -1,11 +1,18 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createStackNavigator } from 'react-navigation-stack';
-import { fromLeft, zoomIn, flipX, flipY } from 'react-navigation-transitions';
+import { zoomIn} from 'react-navigation-transitions';
+import { Ionicons } from '@expo/vector-icons';
+// importing navigation
+
+import React from 'react';
 
 import HomeScreen from './screens/Home';
-import SettingsScreen from './screens/other';
+import ProfileScreen from './screens/other';
+import RealtorScreen from './screens/realtors';
 import LoginScreen from './screens/Login';
+import ChatScreen from './screens/chat';
+// importing all the pages
 
 // Switch Navigator
 const AuthNavigator = createSwitchNavigator(
@@ -17,12 +24,33 @@ const AuthNavigator = createSwitchNavigator(
       'Login'
   }
 );
+//initialPage
+
 
 // Tab Navigator
+// Saying which pages are suppose to be displayed on tabbar and setting icons
 const HomeNavigator = createBottomTabNavigator(
   {
-    Home: { screen: HomeScreen },
-    Offers: { screen: SettingsScreen },
+    Home: { screen: HomeScreen,
+      navigationOptions: {
+        tabBarIcon: ({tintColor}) => <Ionicons name="ios-home" size={25} color={tintColor} />//adding icons
+        }, 
+    },
+    Realtors: { screen: RealtorScreen,
+      navigationOptions: {
+        tabBarIcon: ({tintColor}) => <Ionicons name="ios-contacts" size={25} color={tintColor} />//adding icons
+        }, 
+    },
+    Profile: { screen: ProfileScreen,
+      navigationOptions: {
+        tabBarIcon: ({tintColor}) => <Ionicons name="ios-contact" size={25} color={tintColor} />//adding icons
+        }, 
+     },
+     Chat: { screen: ChatScreen,
+      navigationOptions: {
+        tabBarIcon: ({tintColor}) => <Ionicons name="ios-mail-open" size={25} color={tintColor} />
+      },
+    },
   },
   {
     initialRouteName: 'Home'
@@ -40,10 +68,11 @@ export default createAppContainer( // must have this wrapper (function) to have 
       initialRouteName: 'Auth', // which screen / navigations stack to begin with (string name is sensitive)
       transitionConfig: () => zoomIn(), // screen to screen transitions
       navigationOptions: {
-        headerVisible: false, // remove top bar and make full screen
+        headerVisible: false,// remove top bar and make full screen
       },
       defaultNavigationOptions: { // remove swipe back gesture
-        gesturesEnabled: false
+        gesturesEnabled: false,
+        header: null,
       }
     }
   )
