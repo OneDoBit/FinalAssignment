@@ -1,7 +1,7 @@
 # Done by Oleksandr Nedobitkov and Danil Kravchenko
 
 # About My App: 
-5 Pages + 2 Custom Components 
+5 Pages + 2 Custom Components <br>
 1st page (login screen)
 2nd page (House List)
 3rd page (Realtor List)
