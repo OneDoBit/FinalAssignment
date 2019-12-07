@@ -7,6 +7,8 @@
 3rd page (Realtor List)<br>
 4th page (Profile Page)<br>
 5th page (Chat Page)<br>
+6th page (Forgot Page)<br>
+
 Page 2 uses native base UI kit<br>
 Page Uses Firebase *Images might not load as fast*<br>
 Page uses React-Navigation<br>
@@ -42,12 +44,13 @@ npm insatll<br>
 
 # App Usage<br>
 1)Run<br>
-2)Enter Your Email and Password and press Sign Up<br>
-3)After the confirmation of signing up shown up, press Sign In with your cridentials<br>
-4)Scroll through the list of houses listed<br>
-5)Switch to Realtor window and explore that *Have the ability to chat with you realtor in the future*<br>
-6)Switch to your profile *Have the ability to have actual profile window with working info*<br>
-7)Switch To Chat window *Hoping to complete that in the future*<br>
+2)Click forgot password just to se the page
+3)Enter Your Email and Password and press Sign Up<br>
+4)After the confirmation of signing up shown up, press Sign In with your cridentials<br>
+5)Scroll through the list of houses listed<br>
+6)Switch to Realtor window and explore that *Have the ability to chat with you realtor in the future*<br>
+7)Switch to your profile *Have the ability to have actual profile window with working info*<br>
+8)Switch To Chat window *Hoping to complete that in the future*<br>
 
 # Specials<br>
 The app really took the examples of firebase, custom components and native base and created an app that in future could become something bigger. Realtor and Houses pages are already automated. All other pages are in plans but just mocked up for now.
