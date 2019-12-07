@@ -12,12 +12,14 @@ import ProfileScreen from './screens/other';
 import RealtorScreen from './screens/realtors';
 import LoginScreen from './screens/Login';
 import ChatScreen from './screens/chat';
+import ForgotPassword from './forgotpassword';
 // importing all the pages
 
 // Switch Navigator
 const AuthNavigator = createSwitchNavigator(
   {
-    Login: LoginScreen
+    Login: LoginScreen,
+    Forgot: ForgotPassword
   },
   {
     initialRouteName:

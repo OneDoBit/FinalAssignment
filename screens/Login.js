@@ -86,7 +86,7 @@ export default class LoginScreen extends Component {
             onPress={() => this.SignUp(this.state.email, this.state.password)}>
               <Text style={styles.TextStyle}> Sign Up </Text></TouchableOpacity>
         </Animated.View>
-        <Text style={styles.description} >Trouble signing in?</Text>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('Forgot')} style={styles.description} ><Text>Trouble signing in?</Text></TouchableOpacity>
       </View>
       )
   }
